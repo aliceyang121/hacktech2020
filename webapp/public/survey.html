@@ -1,0 +1,140 @@
+<html>
+<head>
+	<title>HackCorona Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+	<link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    
+    
+    <form action="" method="POST" id="survey"></form>
+        <div class="question">
+            <p>1. Have you traveled to the following locations, and if applicable, during the 14 days prior to symptom onset?<span class="required">*</span></p>
+            <div class="question-answer checkbox-item">
+            <div>
+                <input type="checkbox" id="China" name="checklist" required/>
+                <label for="check_1" class="check"><span>China</span></label>
+            </div>
+            <div>
+                <input type="checkbox" id="Iran" name="checklist" required/>
+                <label for="check_2" class="check"><span>Iran</span></label>
+            </div>
+            <div>
+                <input type="checkbox" id="Italy" name="checklist" required/>
+                <label for="check_3" class="check"><span>Italy</span></label>
+            </div>
+            <div>
+                <input type="checkbox" id="SouthKorea" name="checklist" required/>
+                <label for="check_4" class="check"><span>South Korea</span></label>
+            </div>
+            <div>
+                <input type="checkbox" id="Japan" name="checklist" required/>
+                <label for="check_5" class="check"><span>Japan</span></label>
+            </div>
+            <div>
+                <input type="checkbox" id="HongKong" name="checklist" required/>
+                <label for="check_5" class="check"><span>HongKong</span></label>
+            </div>
+            </div>
+        </div>
+        <div class="question">
+            <h5>2. Have you had close contact with a confirmed or probable COVID-19 case?*</h5>
+            <span class="required"></span>
+            <div class="question-answer">
+            <input type="radio" value="none" id="Yes" name="research" required/>
+            <label for="Yes" class="radio"><span>Yes</span></label>
+            <input type="radio" value="none" id="No" name="research" required/>
+            <label for="No" class="radio"><span>No</span></label>
+            <input type="radio" value="none" id="Unsure" name="research" required/>
+            <label for="Unsure" class="radio"><span>Unsure</span></label>
+            </div>
+        </div>
+        
+        <div class="btn-block">
+            <button type="submit" href="/" onclick="formSubmit()">Submit</button>
+        </div>
+    </form>
+
+    <script>
+
+        const firebase = require("firebase");
+        // Required for side-effects
+        require("firebase/firestore");
+        const firebaseConfig = {
+            apiKey: "AIzaSyCXztm2D5Mkw7qPgrtIYL9zpM2EwNwYdJc",
+            authDomain: "hacktech2020-4811d.firebaseapp.com",
+            databaseURL: "https://hacktech2020-4811d.firebaseio.com",
+            projectId: "hacktech2020-4811d",
+            storageBucket: "hacktech2020-4811d.appspot.com",
+            messagingSenderId: "577661425895",
+            appId: "1:577661425895:web:a83f6c3b2cfc9e255bea42",
+            measurementId: "G-XYQGMB7ZZ1"
+        };
+        
+
+        let formMessage = firebase.database().ref('survey');
+        
+        document.getElementById('survey').addEventListener('submit', formSubmit);
+        
+        function formSubmit(e){
+            var countries = {
+                "China": document.querySelector('#China').checked,
+                "Italy": document.querySelector('#Italy').checked,
+                "Iran": document.querySelector('#Iran').checked,
+                "SouthKorea": document.querySelector('#SouthKorea').checked,
+                "Japan": document.querySelector('#Japan').checked,
+                "HongKong": document.querySelector('#HongKong').checked
+            };
+            
+            document.getElementById('survey').reset();
+        }
+
+        sendMessage(countries);
+
+        function sendMessage(countries) {
+            let newFormMessage = formMessage.push();
+            newFormMessage.set({
+                countires: countries
+            });
+        }
+
+        function priority(){
+            var travel = 0;
+            if ((document.getElementById("China").checked) != null){
+                travel += 3;
+            }
+            if ((document.getElementById("Iran").checked) != null){
+                travel += 3;
+            }
+            if ((document.getElementById("Italy").checked) != null){
+                travel += 3;
+            }
+            if ((document.getElementById("SouthKorea").checked) != null){
+                travel += 3;
+            }
+            if ((document.getElementById("Japan").checked) != null){
+                travel += 2;
+            }
+            if ((document.getElementById("HongKong").checked) != null){
+                travel += 1;
+            }
+        }
+        
+    </script>
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="/__/firebase/7.10.0/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="/__/firebase/7.10.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="/__/firebase/7.10.0/firebase-auth.js"></script>
+    <script src="/__/firebase/7.10.0/firebase-firestore.js"></script>
+        
+</body>
+</html>

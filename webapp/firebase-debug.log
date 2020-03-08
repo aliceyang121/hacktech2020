@@ -1,0 +1,242 @@
+[debug] [2020-03-08T01:23:07.326Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:23:07.330Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T01:23:07.330Z] CLI Version:   7.14.0
+[debug] [2020-03-08T01:23:07.330Z] Platform:      darwin
+[debug] [2020-03-08T01:23:07.330Z] Node Version:  v12.16.0
+[debug] [2020-03-08T01:23:07.330Z] Time:          Sat Mar 07 2020 17:23:07 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T01:23:07.331Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:23:07.331Z] 
+[debug] [2020-03-08T01:23:07.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T01:23:07.336Z] > authorizing via signed-in user
+[debug] [2020-03-08T01:23:07.337Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T01:23:07.338Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T01:23:07.701Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:23:07.703Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T01:23:07.901Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jzhang/Desktop/hacktech/hacktech2020/webapp'...
+[info] 
+[debug] [2020-03-08T01:23:07.905Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T01:23:08.202Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions" for Cloud Functions...
+[debug] [2020-03-08T01:23:08.231Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T01:23:08.231Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T01:23:08.231Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T01:23:08.232Z] [worker-~diagnostic~-20ffec8b-0dcc-40a2-a4cc-6fd93a804817]: Assigning socketPath: /var/folders/w3/0jmh4pk958q2bn7640v0hpzm0000gn/T/fire_emu_44275.sock
+[debug] [2020-03-08T01:23:08.232Z] [worker-~diagnostic~-20ffec8b-0dcc-40a2-a4cc-6fd93a804817]: BUSY
+[info] i  hosting[hackcorona]: Serving hosting files from: public
+[info] ✔  hosting[hackcorona]: Local server: http://localhost:5000
+[debug] [2020-03-08T01:23:08.404Z] [runtime-status] [44275] Functions runtime initialized. {"cwd":"/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions","node_version":"12.16.0"}
+[debug] [2020-03-08T01:23:08.405Z] [runtime-status] [44275] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T01:23:08.426Z] [worker-~diagnostic~-20ffec8b-0dcc-40a2-a4cc-6fd93a804817]: exited
+[debug] [2020-03-08T01:23:08.426Z] [worker-~diagnostic~-20ffec8b-0dcc-40a2-a4cc-6fd93a804817]: FINISHED
+[debug] [2020-03-08T01:26:02.147Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:26:02.148Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T01:26:02.148Z] CLI Version:   7.14.0
+[debug] [2020-03-08T01:26:02.148Z] Platform:      darwin
+[debug] [2020-03-08T01:26:02.148Z] Node Version:  v12.16.0
+[debug] [2020-03-08T01:26:02.149Z] Time:          Sat Mar 07 2020 17:26:02 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T01:26:02.149Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:26:02.149Z] 
+[debug] [2020-03-08T01:26:02.154Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T01:26:02.154Z] > authorizing via signed-in user
+[debug] [2020-03-08T01:26:02.155Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T01:26:02.156Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T01:26:02.502Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:26:02.503Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T01:26:02.656Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jzhang/Desktop/hacktech/hacktech2020/webapp'...
+[info] 
+[debug] [2020-03-08T01:26:02.658Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T01:26:02.958Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions" for Cloud Functions...
+[debug] [2020-03-08T01:26:02.979Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T01:26:02.979Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T01:26:02.979Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T01:26:02.980Z] [worker-~diagnostic~-3656abc2-b07a-4149-8bc5-3790137d1947]: Assigning socketPath: /var/folders/w3/0jmh4pk958q2bn7640v0hpzm0000gn/T/fire_emu_44315.sock
+[debug] [2020-03-08T01:26:02.980Z] [worker-~diagnostic~-3656abc2-b07a-4149-8bc5-3790137d1947]: BUSY
+[info] i  hosting[hackcorona]: Serving hosting files from: public
+[info] ✔  hosting[hackcorona]: Local server: http://localhost:5000
+[debug] [2020-03-08T01:26:03.139Z] [runtime-status] [44315] Functions runtime initialized. {"cwd":"/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions","node_version":"12.16.0"}
+[debug] [2020-03-08T01:26:03.140Z] [runtime-status] [44315] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T01:26:03.161Z] [worker-~diagnostic~-3656abc2-b07a-4149-8bc5-3790137d1947]: exited
+[debug] [2020-03-08T01:26:03.161Z] [worker-~diagnostic~-3656abc2-b07a-4149-8bc5-3790137d1947]: FINISHED
+[debug] [2020-03-08T01:30:05.407Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:30:05.411Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T01:30:05.411Z] CLI Version:   7.14.0
+[debug] [2020-03-08T01:30:05.411Z] Platform:      darwin
+[debug] [2020-03-08T01:30:05.411Z] Node Version:  v12.16.0
+[debug] [2020-03-08T01:30:05.411Z] Time:          Sat Mar 07 2020 17:30:05 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T01:30:05.411Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:30:05.411Z] 
+[debug] [2020-03-08T01:30:05.419Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T01:30:05.419Z] > authorizing via signed-in user
+[debug] [2020-03-08T01:30:05.419Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T01:30:05.420Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T01:30:05.808Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:30:05.810Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T01:30:06.011Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jzhang/Desktop/hacktech/hacktech2020/webapp'...
+[info] 
+[debug] [2020-03-08T01:30:06.015Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T01:30:06.420Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions" for Cloud Functions...
+[debug] [2020-03-08T01:30:06.453Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T01:30:06.453Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T01:30:06.453Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T01:30:06.454Z] [worker-~diagnostic~-04380d9a-f103-41ff-8667-cd274416bb65]: Assigning socketPath: /var/folders/w3/0jmh4pk958q2bn7640v0hpzm0000gn/T/fire_emu_44342.sock
+[debug] [2020-03-08T01:30:06.454Z] [worker-~diagnostic~-04380d9a-f103-41ff-8667-cd274416bb65]: BUSY
+[info] i  hosting[hackcorona]: Serving hosting files from: public
+[info] ✔  hosting[hackcorona]: Local server: http://localhost:5000
+[debug] [2020-03-08T01:30:06.621Z] [runtime-status] [44342] Functions runtime initialized. {"cwd":"/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions","node_version":"12.16.0"}
+[debug] [2020-03-08T01:30:06.622Z] [runtime-status] [44342] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T01:30:06.643Z] [worker-~diagnostic~-04380d9a-f103-41ff-8667-cd274416bb65]: exited
+[debug] [2020-03-08T01:30:06.643Z] [worker-~diagnostic~-04380d9a-f103-41ff-8667-cd274416bb65]: FINISHED
+[debug] [2020-03-08T01:34:37.629Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:34:37.631Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T01:34:37.631Z] CLI Version:   7.14.0
+[debug] [2020-03-08T01:34:37.631Z] Platform:      darwin
+[debug] [2020-03-08T01:34:37.631Z] Node Version:  v12.16.0
+[debug] [2020-03-08T01:34:37.631Z] Time:          Sat Mar 07 2020 17:34:37 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T01:34:37.631Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:34:37.631Z] 
+[debug] [2020-03-08T01:34:37.636Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T01:34:37.636Z] > authorizing via signed-in user
+[debug] [2020-03-08T01:34:37.636Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T01:34:37.637Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-08T01:34:37.637Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-08T01:34:37.782Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:34:37.792Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T01:34:38.050Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:34:38.052Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T01:34:38.222Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jzhang/Desktop/hacktech/hacktech2020/webapp'...
+[info] 
+[debug] [2020-03-08T01:34:38.226Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T01:34:38.501Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions" for Cloud Functions...
+[debug] [2020-03-08T01:34:38.528Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T01:34:38.528Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T01:34:38.528Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T01:34:38.528Z] [worker-~diagnostic~-8a772e48-4e35-40e0-b473-cf47fd516a2d]: Assigning socketPath: /var/folders/w3/0jmh4pk958q2bn7640v0hpzm0000gn/T/fire_emu_44416.sock
+[debug] [2020-03-08T01:34:38.529Z] [worker-~diagnostic~-8a772e48-4e35-40e0-b473-cf47fd516a2d]: BUSY
+[info] i  hosting[hackcorona]: Serving hosting files from: public
+[info] ✔  hosting[hackcorona]: Local server: http://localhost:5000
+[debug] [2020-03-08T01:34:38.704Z] [runtime-status] [44416] Functions runtime initialized. {"cwd":"/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions","node_version":"12.16.0"}
+[debug] [2020-03-08T01:34:38.704Z] [runtime-status] [44416] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T01:34:38.723Z] [worker-~diagnostic~-8a772e48-4e35-40e0-b473-cf47fd516a2d]: exited
+[debug] [2020-03-08T01:34:38.723Z] [worker-~diagnostic~-8a772e48-4e35-40e0-b473-cf47fd516a2d]: FINISHED
+[debug] [2020-03-08T01:50:41.241Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:50:41.242Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T01:50:41.242Z] CLI Version:   7.14.0
+[debug] [2020-03-08T01:50:41.242Z] Platform:      darwin
+[debug] [2020-03-08T01:50:41.242Z] Node Version:  v12.16.0
+[debug] [2020-03-08T01:50:41.243Z] Time:          Sat Mar 07 2020 17:50:41 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T01:50:41.243Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:50:41.243Z] 
+[debug] [2020-03-08T01:50:41.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T01:50:41.249Z] > authorizing via signed-in user
+[debug] [2020-03-08T01:50:41.250Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T01:50:41.253Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T01:50:41.586Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:50:41.587Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T01:50:41.750Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jzhang/Desktop/hacktech/hacktech2020/webapp'...
+[info] 
+[debug] [2020-03-08T01:50:41.753Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T01:50:42.021Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions" for Cloud Functions...
+[debug] [2020-03-08T01:50:42.055Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T01:50:42.056Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T01:50:42.056Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T01:50:42.056Z] [worker-~diagnostic~-fd7cbb33-5b76-446e-aa53-16797f280416]: Assigning socketPath: /var/folders/w3/0jmh4pk958q2bn7640v0hpzm0000gn/T/fire_emu_44518.sock
+[debug] [2020-03-08T01:50:42.056Z] [worker-~diagnostic~-fd7cbb33-5b76-446e-aa53-16797f280416]: BUSY
+[info] i  hosting[hackcorona]: Serving hosting files from: public
+[info] ✔  hosting[hackcorona]: Local server: http://localhost:5000
+[debug] [2020-03-08T01:50:42.228Z] [runtime-status] [44518] Functions runtime initialized. {"cwd":"/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions","node_version":"12.16.0"}
+[debug] [2020-03-08T01:50:42.228Z] [runtime-status] [44518] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T01:50:42.249Z] [worker-~diagnostic~-fd7cbb33-5b76-446e-aa53-16797f280416]: exited
+[debug] [2020-03-08T01:50:42.249Z] [worker-~diagnostic~-fd7cbb33-5b76-446e-aa53-16797f280416]: FINISHED
+[debug] [2020-03-08T02:44:18.828Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T02:44:18.830Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T02:44:18.830Z] CLI Version:   7.14.0
+[debug] [2020-03-08T02:44:18.830Z] Platform:      darwin
+[debug] [2020-03-08T02:44:18.830Z] Node Version:  v12.16.0
+[debug] [2020-03-08T02:44:18.830Z] Time:          Sat Mar 07 2020 18:44:18 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T02:44:18.831Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T02:44:18.831Z] 
+[debug] [2020-03-08T02:44:18.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T02:44:18.842Z] > authorizing via signed-in user
+[debug] [2020-03-08T02:44:18.842Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T02:44:18.843Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-08T02:44:18.843Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-08T02:44:19.997Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T02:44:20.006Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T02:44:20.332Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T02:44:20.333Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T02:44:20.559Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jzhang/Desktop/hacktech/hacktech2020/webapp'...
+[info] 
+[debug] [2020-03-08T02:44:20.563Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T02:44:20.826Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions" for Cloud Functions...
+[debug] [2020-03-08T02:44:20.857Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T02:44:20.857Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T02:44:20.857Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T02:44:20.858Z] [worker-~diagnostic~-91f777e8-cd7e-4ec7-b3fa-d9125b33103c]: Assigning socketPath: /var/folders/w3/0jmh4pk958q2bn7640v0hpzm0000gn/T/fire_emu_45066.sock
+[debug] [2020-03-08T02:44:20.858Z] [worker-~diagnostic~-91f777e8-cd7e-4ec7-b3fa-d9125b33103c]: BUSY
+[info] i  hosting[hackcorona]: Serving hosting files from: public
+[info] ✔  hosting[hackcorona]: Local server: http://localhost:5000
+[debug] [2020-03-08T02:44:21.031Z] [runtime-status] [45066] Functions runtime initialized. {"cwd":"/Users/jzhang/Desktop/hacktech/hacktech2020/webapp/functions","node_version":"12.16.0"}
+[debug] [2020-03-08T02:44:21.031Z] [runtime-status] [45066] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T02:44:21.051Z] [worker-~diagnostic~-91f777e8-cd7e-4ec7-b3fa-d9125b33103c]: exited
+[debug] [2020-03-08T02:44:21.051Z] [worker-~diagnostic~-91f777e8-cd7e-4ec7-b3fa-d9125b33103c]: FINISHED
