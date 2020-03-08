@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "hacktech2020-4811d"
+    "default": "hacktech2020-4811d",
+    "coronavirus": "hacktech2020-4811d"
   }
 }
