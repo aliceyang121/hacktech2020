@@ -38,5 +38,11 @@ function login(){
 }
 
 function logout() {
+	firebase.auth().signOut().then(function() {
+		window.alert("You have been successfully logged out");
 	
+	}).catch(function(error) {
+	
+	});
 }
+
