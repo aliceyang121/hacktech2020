@@ -6,18 +6,18 @@
 </head>
 <body>
 
-	<div class="main-div">
+	<div id="login_div" class="main-div">
 		<h3>HackCorona Webpage Login</h3>
-		<input type="email" placeholder = "Email..." />
-		<input type="password" placeholder="Password..."/>
+		<input type="email" placeholder = "Email..." id="email_field"/>
+		<input type="password" placeholder="Password..." id="password_field"/>
 	
 		<button onclick="login()">Login to Account</button>
 	</div>
 	
-	<div class="loggedin-div">
+	<div id = "user_div" class="loggedin-div">
 		<h3>Welcome User</h3>
-		<p>Welcome to HackCorona Web. You're currently logged in.</p>
-		<button>Logout</button>
+		<p id = "user_para" >Welcome to HackCorona Web. You're currently logged in.</p>
+		<button onclick = "logout()">Logout</button>
 	</div>
 
 
