@@ -5,7 +5,8 @@
 	<link rel = "stylesheet" href = "style.css" />
 </head>
 <body>
-	<a href="survey.html">survey</a>
+
+
 	<div id="login_div" class="main-div">
 		<h3>HackCorona Webpage Login</h3>
 		<input type="email" placeholder = "Email..." id="email_field"/>
@@ -22,25 +23,29 @@
 
 
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+	<script src="/__/firebase/7.10.0/firebase-app.js"></script>
 
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	 https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="/__/firebase/7.10.0/firebase-analytics.js"></script>
+	<script src="/__/firebase/7.10.0/firebase-auth.js"></script>
+	<script src="/__/firebase/7.10.0/firebase-firestore.js"></script>
+
+	<!-- Initialize Firebase -->
+	<script src="/__/firebase/init.js"></script>
 	<script>
-	  // Your web app's Firebase configuration
-	  var firebaseConfig = {
-		apiKey: "AIzaSyCXztm2D5Mkw7qPgrtIYL9zpM2EwNwYdJc",
-		authDomain: "hacktech2020-4811d.firebaseapp.com",
-		databaseURL: "https://hacktech2020-4811d.firebaseio.com",
-		projectId: "hacktech2020-4811d",
-		storageBucket: "hacktech2020-4811d.appspot.com",
-		messagingSenderId: "577661425895",
-		appId: "1:577661425895:web:779437a87f963fa95bea42",
-		measurementId: "G-R0M8SGHT8Y"
-	  };
-	  // Initialize Firebase
-	  firebase.initializeApp(firebaseConfig);
-	  firebase.analytics();
+	const firebaseConfig = {
+	apiKey: "AIzaSyCXztm2D5Mkw7qPgrtIYL9zpM2EwNwYdJc",
+	authDomain: "hacktech2020-4811d.firebaseapp.com",
+	databaseURL: "https://hacktech2020-4811d.firebaseio.com",
+	projectId: "hacktech2020-4811d",
+	storageBucket: "hacktech2020-4811d.appspot.com",
+	messagingSenderId: "577661425895",
+	appId: "1:577661425895:web:a83f6c3b2cfc9e255bea42",
+	measurementId: "G-XYQGMB7ZZ1"
+	};
 	</script>
-	
+
 	<script src="index.js"></script>
 
 	
