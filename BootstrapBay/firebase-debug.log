@@ -1,0 +1,82 @@
+[debug] [2020-03-08T00:31:31.696Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T00:31:31.697Z] Command:       /usr/local/Cellar/node/13.7.0/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T00:31:31.697Z] CLI Version:   7.14.0
+[debug] [2020-03-08T00:31:31.697Z] Platform:      darwin
+[debug] [2020-03-08T00:31:31.697Z] Node Version:  v13.7.0
+[debug] [2020-03-08T00:31:31.698Z] Time:          Sat Mar 07 2020 16:31:31 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T00:31:31.698Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T00:31:31.698Z] 
+[debug] [2020-03-08T00:31:31.703Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T00:31:31.703Z] > authorizing via signed-in user
+[debug] [2020-03-08T00:31:31.703Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T00:31:31.704Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-08T00:31:31.704Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-08T00:31:31.854Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T00:31:31.869Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T00:31:32.634Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T00:31:32.635Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T00:31:32.840Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/aliceyang/Documents/Caltech/hacktech2020/BootstrapBay'...
+[info] 
+[debug] [2020-03-08T00:31:32.845Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "13"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T00:31:33.248Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/aliceyang/Documents/Caltech/hacktech2020/BootstrapBay/functions" for Cloud Functions...
+[debug] [2020-03-08T00:31:33.291Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T00:31:33.292Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T00:31:33.292Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T00:31:33.292Z] [worker-~diagnostic~-e358d82b-c89b-4ada-9679-9bb1aa454e92]: Assigning socketPath: /var/folders/y1/r6prlz5j4_b23z_gm28753mm0000gn/T/fire_emu_18928.sock
+[debug] [2020-03-08T00:31:33.292Z] [worker-~diagnostic~-e358d82b-c89b-4ada-9679-9bb1aa454e92]: BUSY
+[info] i  hosting[hackcorona2]: Serving hosting files from: build
+[info] ✔  hosting[hackcorona2]: Local server: http://localhost:5000
+[debug] [2020-03-08T00:31:33.478Z] [runtime-status] [18928] Functions runtime initialized. {"cwd":"/Users/aliceyang/Documents/Caltech/hacktech2020/BootstrapBay/functions","node_version":"13.7.0"}
+[debug] [2020-03-08T00:31:33.479Z] [runtime-status] [18928] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T00:31:33.502Z] [worker-~diagnostic~-e358d82b-c89b-4ada-9679-9bb1aa454e92]: exited
+[debug] [2020-03-08T00:31:33.502Z] [worker-~diagnostic~-e358d82b-c89b-4ada-9679-9bb1aa454e92]: FINISHED
+[debug] [2020-03-08T01:50:15.401Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:50:15.402Z] Command:       /usr/local/Cellar/node/13.7.0/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-08T01:50:15.402Z] CLI Version:   7.14.0
+[debug] [2020-03-08T01:50:15.402Z] Platform:      darwin
+[debug] [2020-03-08T01:50:15.402Z] Node Version:  v13.7.0
+[debug] [2020-03-08T01:50:15.403Z] Time:          Sat Mar 07 2020 17:50:15 GMT-0800 (Pacific Standard Time)
+[debug] [2020-03-08T01:50:15.403Z] ----------------------------------------------------------------------
+[debug] [2020-03-08T01:50:15.403Z] 
+[debug] [2020-03-08T01:50:15.409Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-08T01:50:15.409Z] > authorizing via signed-in user
+[debug] [2020-03-08T01:50:15.409Z] [iam] checking project hacktech2020-4811d for permissions ["firebase.projects.get"]
+[debug] [2020-03-08T01:50:15.410Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hacktech2020-4811d:testIamPermissions  
+
+[debug] [2020-03-08T01:50:15.694Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-08T01:50:15.696Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d  
+ 
+[debug] [2020-03-08T01:50:15.865Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/aliceyang/Documents/Caltech/hacktech2020/BootstrapBay'...
+[info] 
+[debug] [2020-03-08T01:50:15.871Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hacktech2020-4811d/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "13"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-03-08T01:50:16.276Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/aliceyang/Documents/Caltech/hacktech2020/BootstrapBay/functions" for Cloud Functions...
+[debug] [2020-03-08T01:50:16.312Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-08T01:50:16.313Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-08T01:50:16.313Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-08T01:50:16.313Z] [worker-~diagnostic~-81ab8ffd-3e9e-418e-b087-176fd5ffe050]: Assigning socketPath: /var/folders/y1/r6prlz5j4_b23z_gm28753mm0000gn/T/fire_emu_919.sock
+[debug] [2020-03-08T01:50:16.313Z] [worker-~diagnostic~-81ab8ffd-3e9e-418e-b087-176fd5ffe050]: BUSY
+[info] i  hosting[hackcorona2]: Serving hosting files from: build
+[info] ✔  hosting[hackcorona2]: Local server: http://localhost:5000
+[debug] [2020-03-08T01:50:16.492Z] [runtime-status] [919] Functions runtime initialized. {"cwd":"/Users/aliceyang/Documents/Caltech/hacktech2020/BootstrapBay/functions","node_version":"13.7.0"}
+[debug] [2020-03-08T01:50:16.493Z] [runtime-status] [919] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-08T01:50:16.515Z] [worker-~diagnostic~-81ab8ffd-3e9e-418e-b087-176fd5ffe050]: exited
+[debug] [2020-03-08T01:50:16.515Z] [worker-~diagnostic~-81ab8ffd-3e9e-418e-b087-176fd5ffe050]: FINISHED
